@@ -55,6 +55,10 @@ public class GalleryFragment extends Fragment {
             }
             Integer id = Integer.parseInt(id_str);
             Double startBal = Double.parseDouble(bal_str);
+            if(dbHandler.getAccount(id)!=null){
+                Toast.makeText(root.getContext(), "Account already exists", Toast.LENGTH_SHORT).show();
+                return;
+            }
             dbHandler.addAccount(name,id,startBal);
 
             Toast.makeText(root.getContext(), "Account Added", Toast.LENGTH_SHORT).show();

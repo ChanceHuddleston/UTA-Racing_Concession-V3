@@ -14,8 +14,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="153dp"
-        android:layout_height="101dp"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
         android:contentDescription="@string/nav_header_desc"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
         app:srcCompat="@drawable/uta_racing_logo_orange" />
@@ -29,7 +29,7 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="2023 - chance.huddleston@mavs.uta.edu" />
 </LinearLayout>

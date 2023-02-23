@@ -71,7 +71,7 @@ public class DBHandler extends SQLiteOpenHelper {
      * @param startingBalance
      * @return void
      */
-    public void addAccount(String name, Integer id , double startingBalance) {
+    public boolean addAccount(String name, Integer id , double startingBalance) {
 
         // on below line we are creating a variable for
         // our sqlite database and calling writable method
@@ -95,6 +95,7 @@ public class DBHandler extends SQLiteOpenHelper {
         // at last we are closing our
         // database after adding database.
         db.close();
+        return true;
     }
 
 
