@@ -25,7 +25,7 @@ Built by Chance Huddleston for UTA Racing as an honor-system based Point of Sale
 
 ## Demo
 
-Insert gif or link to demo
+![Demo](./device-2023-02-26-153428.gif)
 
 
 ## License
