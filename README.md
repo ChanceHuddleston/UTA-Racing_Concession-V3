@@ -1,6 +1,6 @@
 # UTA Racing Concession V3
 
-Built by Chance Huddleston for UTA Racing as an honor-system based Point of Sale system where the user is responsible for entering their own purchases on the app. The app is intended to keep track of the users' account balance on an intuitive, simple, and responsive user-interface. 
+Built by Chance Huddleston for UTA Racing as an honor-system based Point of Sale system where the user is responsible for entering their own purchases on the app. The app is intended to keep track of the users' account balance on an intuitive, simple, and responsive user-interface while being self-contained requiring no internet access or external database storage. This is achieved through Android Studio combined with SQLite3 DBMS. 
 
 
 ## Authors
